@@ -1,0 +1,27 @@
+
+
+* {
+font-family: Helvetica;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    background: #eceff1;
+    transition: 0.3s;
+}
+
+input[type="checkbox"] {
+    display:none;
+
+}
+
+/* Dark Theme */
+.dark,
+.dark header {
+background-color: #263238;
+color:#fff;
+}
