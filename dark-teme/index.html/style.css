@@ -1,0 +1,149 @@
+*{
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+     
+    html,
+    body {
+    height: 100%;
+    background-color: #ced7d7;
+    transition: 0.3s;
+    }
+    
+    input[type="checkbox"] {
+    display: none;
+    }
+    
+    .bi-sun{
+    font-size: 1.3rem;
+    cursor: pointer;
+    }
+    
+    .bi-moon {
+    display: none;
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eceff1;
+    box-shadow: 0.5px 0.5px 10px 0.5px rgba(89, 222, 222, 0.3);
+    padding: 1rem 2rem;
+    position: relative;
+    }
+    main {
+    display: flex;
+    justify-content: center;
+    }
+    .card{  
+    margin-top: 4rem;
+    display: flex;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 8px 8px 8px 0px  rgba(89, 222, 222, 0.3);
+    border-radius: 1rem;
+    }
+    .card-image{
+        padding: 2rem;
+        width: 50%;
+        position: relative;
+        background-color: #cafdf9;
+        border-radius:   60rem 0 0 0;
+    }
+    .card-image span{
+        font-size: 6rem;
+        font-weight: 900;
+    }
+    .card img {
+    width: 600px;
+    transform: rotate(-30deg);
+    width: 130%;
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 2rem;
+    right: -1rem;
+    top: 10rem;
+    }
+    
+    .card-details {
+    width: 50%;
+    padding: 2rem;
+    }
+    
+    .card-details h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    .subtitle {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+    
+    .description {
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+    }
+    
+    .price-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .price {
+    font-weight: 900;
+    font-size: 2rem;
+    }
+    
+    .btn {
+    background-color: #215a50;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 4rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+    
+    /* Dark theme */
+    .dark,
+    .dark header {
+    background-color: #263238;
+    color: #fff;
+    }
+    
+    .dark .bi-sun {
+    display: none;
+    }
+    
+    .dark .bi-moon {
+    display: block;
+    }
+    
+    .dark .card {
+    background-color: #37474f;
+    }
+    
+    .dark .card-image {
+    background-color: #273035;
+    }
+    
+    .dark .subtitle {
+    color: #67b4f3;
+    }
+    
+    .dark .description {
+    color: #2196f3;
+    }
+    
+    .dark .btn {
+    background-color: #67b4f3;
+    }
+    
